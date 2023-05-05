@@ -1,0 +1,70 @@
+
+:root {
+    background: #edede9;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    padding: 0px 20px 30px 20px;
+    align-items: baseline;
+
+}
+
+logo {
+    height: 30px;
+}
+
+div ul li {
+    display: inline;
+    padding: 0.5em;
+    font-size: 20px;
+}
+div ul li:hover {
+    box-shadow: 2px 2px 5px 5px rgba(150, 122, 161, 0.5);
+    border-radius: 2px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #212529;
+    text-align: left;
+}
+section {
+    width: 50%;
+    margin: 0 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input,
+textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #9a8c98;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #9a8c98;
+}
+
